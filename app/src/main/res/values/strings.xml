@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="tab1">Вкладка 1</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="btHomeActivity">Период активности</string>
+    <string name="btHomeWeight">Вес</string>
+    <string name="btHomeSleep">Сон</string>
+    <string name="btHomeWater">Вода</string>
 </resources>
