@@ -20,6 +20,8 @@ import com.example.myapplication.R;
 import com.example.myapplication.SleepActv;
 import com.example.myapplication.WaterActv;
 import com.example.myapplication.WeightActv;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class HomeFragment extends Fragment {
 
@@ -37,6 +39,7 @@ public class HomeFragment extends Fragment {
         });
         return root;
     }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -71,7 +74,6 @@ public class HomeFragment extends Fragment {
                 startActivity(i);
             }
         });
-
 
         Button waterBt = view.findViewById(R.id.water_bt);
         waterBt.setOnClickListener(new View.OnClickListener() {
