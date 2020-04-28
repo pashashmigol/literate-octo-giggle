@@ -9,8 +9,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="btHomeActivity">Период активности</string>
-    <string name="btHomeWeight">Вес</string>
-    <string name="btHomeSleep">Сон</string>
-    <string name="btHomeWater">Вода</string>
+    <string name="btHomeActivity">1</string>
+    <string name="btHomeWeight">1</string>
+    <string name="btHomeSleep">1</string>
+    <string name="btHomeWater">1</string>
 </resources>
