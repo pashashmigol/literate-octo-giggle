@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="tab1">Вкладка 1</string>
+    <string name="app_name">HealthCare</string>
+
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="btHomeActivity">1</string>
-    <string name="btHomeWeight">1</string>
-    <string name="btHomeSleep">1</string>
-    <string name="btHomeWater">1</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Задания</string>
+    <string name="title_notifications">Профиль</string>
+    <string name="btHomeChange">Записать</string>
+    <string name="water">Вода</string>
+    <string name="weight">Вес</string>
+    <string name="activity">Активность</string>
+    <string name="sleep">Сон</string>
 </resources>

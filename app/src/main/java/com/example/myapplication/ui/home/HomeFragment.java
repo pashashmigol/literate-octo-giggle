@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -20,8 +20,6 @@ import com.example.myapplication.R;
 import com.example.myapplication.SleepActv;
 import com.example.myapplication.WaterActv;
 import com.example.myapplication.WeightActv;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 public class HomeFragment extends Fragment {
 
@@ -46,7 +44,7 @@ public class HomeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        Button activityPeriodBt = view.findViewById(R.id.activity_period_bt);
+        CardView activityPeriodBt = view.findViewById(R.id.cardActivity);
         activityPeriodBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +54,7 @@ public class HomeFragment extends Fragment {
         });
 
 
-        Button weightBt = view.findViewById(R.id.weight_bt);
+        CardView weightBt = view.findViewById(R.id.cardWeight);
         weightBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +64,7 @@ public class HomeFragment extends Fragment {
         });
 
 
-        Button sleepBt = view.findViewById(R.id.sleep_bt);
+        CardView sleepBt = view.findViewById(R.id.cardSleep);
         sleepBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,7 +73,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        Button waterBt = view.findViewById(R.id.water_bt);
+        CardView waterBt = view.findViewById(R.id.cardWater);
         waterBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
